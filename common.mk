@@ -86,11 +86,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Telephony packages
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
+    messaging \
     Stk
-
-# Mms depends on SoundRecorder for recorded audio messages
-PRODUCT_PACKAGES += \
-    SoundRecorder
 
 # World APN list
 PRODUCT_COPY_FILES += \
