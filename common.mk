@@ -90,6 +90,10 @@ PRODUCT_PACKAGES += \
     messaging \
     Stk
 
+# Include librsjni explicitly to workaround GMS issue
+PRODUCT_PACKAGES += \
+    librsjni
+
 # World APN list
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
