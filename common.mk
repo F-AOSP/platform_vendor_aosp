@@ -103,9 +103,6 @@ PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/aosp/overlay/common \
 	vendor/aosp/overlay/dictionaries
 
-# by default, do not update the recovery with system updates
-PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
-
 # F-AOSP Version
 FAOSP_VERSION := $(TARGET_DEVICE)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += ro.faosp.version=$(FAOSP_VERSION)
