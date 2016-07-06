@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh \
     vendor/aosp/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
+# Backup Services whitelist
+PRODUCT_COPY_FILES += \
+    vendor/cm/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
+
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
