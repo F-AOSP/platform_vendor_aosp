@@ -109,7 +109,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.faosp.version=$(FAOSP_VERSION)
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+#ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
 # Chromium Prebuilt
