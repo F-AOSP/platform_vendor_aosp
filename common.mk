@@ -51,28 +51,26 @@ PRODUCT_COPY_FILES += \
 
 # Misc packages
 PRODUCT_PACKAGES += \
+    bash \
     BluetoothExt \
+    fsck.ntfs \
+    gdbserver \
+    htop \
     libemoji \
     libsepol \
-    mke2fs \
-    tune2fs \
-    bash \
-    nano \
-    htop \
-    powertop \
     lsof \
-    mount.exfat \
-    fsck.exfat \
-    mkfs.exfat \
-    mkfs.ntfs \
-    fsck.ntfs \
-    mount.ntfs \
-    gdbserver \
     micro_bench \
+    mke2fs \
+    mkfs.ntfs \
+    mount.ntfs \
+    nano \
     oprofiled \
+    powertop \
     sqlite3 \
     strace \
-    Terminal
+    tune2fs \
+    Terminal \
+    WallpaperPicker
 
 # Telephony packages
 PRODUCT_PACKAGES += \
